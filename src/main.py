@@ -445,9 +445,7 @@ def main():
     ALPHA_SETTING = 1.0 
     # --------------------------------------------------------------------------
 
-    logging.info(f"==========================================================")
     logging.info(f"--- STARTING RUN FOR EXPERIMENT: {EXPERIMENT_MODE} (Alpha: {ALPHA_SETTING if EXPERIMENT_MODE not in ['BASELINE'] else 'N/A'}) ---")
-    logging.info(f"==========================================================")
 
     # --- Data Loading and Preprocessing ---
     val_file_to_check = os.path.join(DATA_BASE_PATH, "movies", "val.jsonl")
