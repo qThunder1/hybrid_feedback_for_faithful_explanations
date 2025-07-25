@@ -66,10 +66,6 @@ This project was implemented in Python 3.11 using TensorFlow 2.16.
 
 If you are running this project in a Google Colab notebook, you can use the following steps to set up the data.
 1.  **Prepare your data:** Place your movies directory into a .zip file (e.g., movies.zip).:**
-    ```bash
-    git clone [https://github.com/qThunder1/hybrid-feedback_for_faithful_explanations.git](https://github.com/qThunder1/hybrid_feedback_for_faithful_explanations.git)
-    cd hybrid_feedback_for_faithful_explanations
-    ```
 
 2.  **Upload and Unzip:**
     In a new Colab notebook, run the following code cell, found in src/colab_preprocess.py file. It will prompt you to upload your movies.zip file and will automatically extract it into the correct directory structure.
