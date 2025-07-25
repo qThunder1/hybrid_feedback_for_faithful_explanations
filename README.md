@@ -57,11 +57,9 @@ This project was implemented in Python 3.11 using TensorFlow 2.16.
     ```bash
     pip install -r requirements.txt
     ```
-    *(You will need to create a `requirements.txt` file by running `pip freeze > requirements.txt` in your working environment).*
-
 4.  **Download the Dataset:**
-    The movie review dataset used in this project is based on the structure from Zaidan (2007). Please download and place the `movies` directory inside the `data/` folder. The repository does not include the dataset itself.
-    
+    The movie review dataset used in this project is based on the structure from Zaidan (2007). The annotations are found in the Data folder, while the reviews themselves are in the Docs subfolder.
+
 ## How to Run in Google Colab
 
 If you are running this project in a Google Colab notebook, you can use the following steps to set up the data.
